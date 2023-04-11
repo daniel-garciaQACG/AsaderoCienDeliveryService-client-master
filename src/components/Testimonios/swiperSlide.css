@@ -1,0 +1,43 @@
+.swiper {
+	max-width: 100%;
+	height: 400px;
+	padding-bottom: 8em;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	margin-top: 7.5em;
+}
+
+.swiper-pagination-bullet-active-main{
+	background-color: #C40C0C;
+}
+
+.swiper-pagination-bullet-active-prev{
+	background-color: #ffffff;
+}
+
+.swiper-pagination-bullet-active-prev-prev{
+	background-color: #ffffff;
+}
+
+.swiper-pagination-bullet-active-next{
+	background-color: #ffffff;
+}
+
+.swiper-pagination-bullet-active-next-next{
+	background-color: #ffffff;
+}
